@@ -1,0 +1,267 @@
+html,body {
+	font-family: system-ui,'Helvetica Neue','Source Sans Pro', sans-serif;
+	margin:0px;
+	--theme-color: #FF0091;
+	background-color:#191827;
+}
+
+*::selection {
+	background-color:var(--theme-color);
+	color:#FFF;
+}
+
+#wrapper {
+	color:#FFF;
+	width:600px;
+	margin-left: auto;
+	margin-right:auto;
+	padding-bottom:200px;
+}
+
+.header {
+	margin-top:100px;
+}
+
+.title {
+	font-size:60px;
+	font-weight:800;
+	margin-bottom: 0px;
+}
+
+.subtitle {
+	font-weight:500;
+	margin-top:5px;
+	font-size:25px;
+}
+
+.description {
+	color:rgba(255,255,255,0.6);
+	font-weight:500;
+	margin-top:30px;
+	line-height:2em;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	color:var(--theme-color);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.contact-bar {
+	width:100%;
+	margin-top:40px;
+	overflow: hidden;
+}
+
+.contact-title {
+	float:left;
+	padding:0px;
+	margin:0px;
+	margin-top: 7px;
+}
+
+.contact-button {
+	background-color:var(--theme-color);
+	color:#FFF;
+	padding:12px 25px 12px 25px;
+	font-size:14px;
+	float:right;
+	text-align:center;
+	border-radius:30px;
+	font-weight:bold;
+	display:block;
+	margin-right: 8px;
+}
+
+.contact-button-in {
+	background-color:#191827;
+	color:#FFF;
+	padding: 0px 23px 0px 0px;
+	font-size:32px;
+	float:right;
+	text-align:center;
+	font-weight:bold;
+	display:block;
+}
+
+.contact-button:hover {
+	text-decoration: none;
+	opacity:0.7;
+}
+
+.contact-button-in:hover {
+	text-decoration: none;
+	opacity:1;
+}
+
+.footer {
+	width:100%;
+	text-align:center;
+	margin-top:100px;
+	font-weight:bold;
+}
+
+.gis-container {
+	background: #C9E5FA; 
+	margin-top: 60px; 
+	color:black;
+	text-align: center;
+}
+
+.center-image {
+	margin-left: 10%; 
+	margin-right: 10%; 
+	width:80%; 
+	height: 250px;
+}
+
+.right-image {
+	margin-left: -20%;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	width:130%;	
+	height: 370px;
+}
+
+.car-image {
+	margin-left: -18%;
+	padding-top: 6px;
+	padding-bottom: 7px;
+	width:130%;	
+	height: 280px;
+}
+
+.merge-container {
+	background: #3C3646; 
+	margin-top: 60px; 
+	color:#FFF;
+	text-align: center;
+}
+
+.mirror-container {
+	background: #CA9CC4; 
+	margin-top: 60px; 
+	color: #42233E;
+	text-align: left;
+}
+
+.car-container {
+	background: #2AD6B9; 
+	margin-top: 60px; 
+	color: #01463A;
+	text-align: left;
+}
+
+.info-project {
+	text-align: justify;
+	margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+	#wrapper {
+		width: 80%;
+		margin-left:10%;
+	}
+
+	.header {
+		margin-top:75px;
+	}
+
+	.contact-title {
+		width:100%;
+		float:none;
+		text-align:center;
+	}
+
+	.contact-button {
+		float:left;
+		margin-top:20px;
+		margin-left:25%;
+		margin-right:auto;
+	}
+
+	.contact-button-in {
+		float:right;
+		margin-top:20px;
+		margin-left:auto;
+		margin-right:25%;
+	}
+	
+	.title {
+		font-size:10vw;
+	}
+
+	.subtitle {
+		font-size:4vw;
+	}
+
+	.description {
+		font-size:3.5vw;
+	}
+	
+	.center-image {
+		margin-left: 10%; 
+		margin-right: 10%; 
+		width:80%; 
+		height: 150px;
+	}
+	
+	.gis-container {
+		background: #C9E5FA; 
+		margin-top: 60px; 
+		color:black;
+		text-align: center;
+		font-size: 3vw;
+	}
+	
+	.merge-container {
+		background: #3C3646; 
+		margin-top: 60px; 
+		color:#FFF;
+		text-align: center;
+		font-size: 3vw;
+	}
+	
+	.mirror-container {
+		background: #CA9CC4; 
+		margin-top: 60px; 
+		color: #42233E;
+		text-align: left;
+		font-size: 3vw;
+	}
+	
+	.car-container {
+		background: #2AD6B9; 
+		margin-top: 60px; 
+		color: #01463A;
+		text-align: left;
+		font-size: 3vw;
+	}
+	
+	.info-project {
+		text-align: justify;
+		font-size: 2.3vw;
+	}
+	
+	.right-image {
+		margin-left: 20%;
+		margin-right: 15%;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		width:60%;	
+		height: 282px;
+	}
+	
+	.car-image {
+		margin-left: 18%;
+		margin-right: 18%;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		width:65%;	
+		height: 249px;
+	}
+}
