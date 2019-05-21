@@ -265,3 +265,209 @@ a:hover {
 		height: 249px;
 	}
 }
+
+@media only screen and (max-width: 495px) {
+	#wrapper {
+		width: 80%;
+		margin-left:10%;
+	}
+
+	.header {
+		margin-top:75px;
+	}
+
+	.contact-title {
+		width:100%;
+		float:none;
+		text-align:center;
+	}
+
+	.contact-button {
+		margin-top:20px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.contact-button-in {
+		margin-top:20px;
+		margin-left:0%;
+		margin-right:auto;
+	}
+	
+	.title {
+		font-size:10vw;
+	}
+
+	.subtitle {
+		font-size:4vw;
+	}
+
+	.description {
+		font-size:3.5vw;
+	}
+	
+	.center-image {
+		margin-left: 10%; 
+		margin-right: 10%; 
+		width:80%; 
+		height: 150px;
+	}
+	
+	.gis-container {
+		background: #C9E5FA; 
+		margin-top: 60px; 
+		color:black;
+		text-align: center;
+		font-size: 3vw;
+	}
+	
+	.merge-container {
+		background: #3C3646; 
+		margin-top: 60px; 
+		color:#FFF;
+		text-align: center;
+		font-size: 3vw;
+	}
+	
+	.mirror-container {
+		background: #CA9CC4; 
+		margin-top: 60px; 
+		color: #42233E;
+		text-align: left;
+		font-size: 3vw;
+	}
+	
+	.car-container {
+		background: #2AD6B9; 
+		margin-top: 60px; 
+		color: #01463A;
+		text-align: left;
+		font-size: 3vw;
+	}
+	
+	.info-project {
+		text-align: justify;
+		font-size: 2.3vw;
+	}
+	
+	.right-image {
+		margin-left: 20%;
+		margin-right: 15%;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		width:65%;	
+		height: 280px;
+	}
+	
+	.car-image {
+		margin-left: 18%;
+		margin-right: 18%;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		width:65%;	
+		height: 218px;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	#wrapper {
+		width: 80%;
+		margin-left:10%;
+	}
+
+	.header {
+		margin-top:75px;
+	}
+
+	.contact-title {
+		width:100%;
+		float:none;
+		text-align:center;
+	}
+
+	.contact-button {
+		margin-top:20px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.contact-button-in {
+		margin-top:20px;
+		margin-left:0%;
+		margin-right:auto;
+	}
+	
+	.title {
+		font-size:10vw;
+	}
+
+	.subtitle {
+		font-size:4vw;
+	}
+
+	.description {
+		font-size:3.5vw;
+	}
+	
+	.center-image {
+		margin-left: 10%; 
+		margin-right: 10%; 
+		width:80%; 
+		height: 150px;
+	}
+	
+	.gis-container {
+		background: #C9E5FA; 
+		margin-top: 60px; 
+		color:black;
+		text-align: center;
+		font-size: 3vw;
+	}
+	
+	.merge-container {
+		background: #3C3646; 
+		margin-top: 60px; 
+		color:#FFF;
+		text-align: center;
+		font-size: 3vw;
+	}
+	
+	.mirror-container {
+		background: #CA9CC4; 
+		margin-top: 60px; 
+		color: #42233E;
+		text-align: left;
+		font-size: 3vw;
+	}
+	
+	.car-container {
+		background: #2AD6B9; 
+		margin-top: 60px; 
+		color: #01463A;
+		text-align: left;
+		font-size: 3vw;
+	}
+	
+	.info-project {
+		text-align: justify;
+		font-size: 2.3vw;
+	}
+	
+	.right-image {
+		margin-left: 20%;
+		margin-right: 15%;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		width:65%;	
+		height: 273px;
+	}
+	
+	.car-image {
+		margin-left: 18%;
+		margin-right: 18%;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		width:65%;	
+		height: 195px;
+	}
+}
