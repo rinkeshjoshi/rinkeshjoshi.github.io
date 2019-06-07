@@ -5,21 +5,6 @@ html,body {
 	background-color:#191827;
 }
 
-.cloud {
-	position:absolute; 
-	display:block; 
-}
-
-.puff { 
-	position:absolute; 
-	display:block; 
-	width:15px; 
-	height:15px; 
-	background:white; 
-	opacity:.05; 
-	filter:alpha(opacity=5); 
-}
-
 *::selection {
 	background-color:var(--theme-color);
 	color:#FFF;
